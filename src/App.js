@@ -8,16 +8,20 @@ import Left from "./Left/Left";
 function App() {
   return (
     <Container fluid>
-      <Col md={12}>
+      <Col>
         <Row>
           <Col md={1}>
             <Left />
           </Col>
-          <Col md={6}>
-            <Main />
-          </Col>
-          <Col md={5}>
-            <Right />
+          <Col md={11}>
+            <Row>
+              <Col md={7}>
+                <Main />
+              </Col>
+              <Col md={5}>
+                <Right />
+              </Col>
+            </Row>
           </Col>
         </Row>
       </Col>

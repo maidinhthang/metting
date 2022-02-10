@@ -7,10 +7,7 @@ function Left() {
       <Row className="leftlayout">
         {/* .....header left........... */}
         <Row className="mx-0 px-4">
-          <Image
-            roundedCircle
-            src="https://images.squarespace-cdn.com/content/v1/5c10d93696e76fdf85e28d93/1571318266030-7V092H0SSBP7VEZGXO9E/Main+Circle+Logo.png"
-          />
+          <IC.Box />
         </Row>
         {/* .................col 1 */}
         <Row className="mt-5 mx-0 px-0">
@@ -48,18 +45,9 @@ function Left() {
         </Row>
         {/* footer */}
         <Row className="mt-5 mx-0 px-4">
-          <Image
-            roundedCircle
-            src="https://images.squarespace-cdn.com/content/v1/5c10d93696e76fdf85e28d93/1571318266030-7V092H0SSBP7VEZGXO9E/Main+Circle+Logo.png"
-          />
-          <Image
-            roundedCircle
-            src="https://images.squarespace-cdn.com/content/v1/5c10d93696e76fdf85e28d93/1571318266030-7V092H0SSBP7VEZGXO9E/Main+Circle+Logo.png"
-          />
-          <Image
-            roundedCircle
-            src="https://images.squarespace-cdn.com/content/v1/5c10d93696e76fdf85e28d93/1571318266030-7V092H0SSBP7VEZGXO9E/Main+Circle+Logo.png"
-          />
+          <IC.Box />
+          <IC.Box />
+          <IC.Box />
         </Row>
       </Row>
     </Container>

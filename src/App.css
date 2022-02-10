@@ -8,6 +8,13 @@
 .main {
   background: #f6f6f6;
 }
+.mainheader {
+  display: flex;
+  align-items: center;
+}
+.meeting {
+  background: #ffffff;
+}
 .right {
   background-color: #ade3ef;
 }

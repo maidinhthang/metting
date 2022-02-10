@@ -1,10 +1,24 @@
-import { Container, Row, Nav, Col } from "react-bootstrap";
-import * as IC from "react-bootstrap-icons";
+import "../App.css";
+import React from "react";
+import { Row, Col, Container } from "react-bootstrap";
+import Header from "./Header";
+import Meeting from "./Meeting";
+import Upcoming from "./Upcoming";
 
 function Main() {
   return (
-    <Container fluid className="px-0 mx-0">
-      <Col className="main ">aaaaaaaaaaaaaaas</Col>
+    <Container fluid className="main px-0 mx-0">
+      <Col>
+        <Row>
+          <Header />
+        </Row>
+        <Row>
+          <Meeting />
+        </Row>
+        <Row>
+          <Upcoming />
+        </Row>
+      </Col>
     </Container>
   );
 }
