@@ -64,7 +64,10 @@ function Upcoming() {
               <span className="texttitle pb-4">{comming.name}</span>
             </Row>
             <Row>
-              <span className="textsubtitle">{comming.place}</span>
+              <span className="textsubtitle">
+                <IC.GeoAltFill />
+                {comming.place}
+              </span>
             </Row>
           </Col>
           <Col md={3}>
