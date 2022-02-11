@@ -4,14 +4,14 @@ import * as IC from "react-bootstrap-icons";
 function Left() {
   return (
     <Container fluid className="mx-0 px-0">
-      <Row className="leftlayout">
+      <Row className="leftlayout mx-0 px-0">
         {/* .....header left........... */}
         <Row className="mx-0 px-4">
-          <IC.Box />
+          <Image src="http://cdn.onlinewebfonts.com/svg/img_470621.png" />
         </Row>
         {/* .................col 1 */}
         <Row className="mt-5 mx-0 px-0">
-          <Col>
+          <Col className=" mx-0 px-0">
             <Nav.Link href="#">
               <IC.Box />
             </Nav.Link>
@@ -27,8 +27,8 @@ function Left() {
           </Col>
         </Row>
         {/* Col 2 */}
-        <Row className="mt-5 mx-0 px-0">
-          <Col>
+        <Row className="mt-3 mb-5 mx-0 px-0">
+          <Col className=" mx-0 px-0">
             <Nav.Link href="#">
               <IC.Box />
             </Nav.Link>
@@ -45,9 +45,20 @@ function Left() {
         </Row>
         {/* footer */}
         <Row className="mt-5 mx-0 px-4">
-          <IC.Box />
-          <IC.Box />
-          <IC.Box />
+          <Col className="">
+            <Row>
+              <Image src="http://cdn.onlinewebfonts.com/svg/img_470621.png" />
+            </Row>
+            <Row className="mt-4 mb-4">
+              <Image src="http://cdn.onlinewebfonts.com/svg/img_470621.png" />
+            </Row>
+            <Row>
+              <Image src="http://cdn.onlinewebfonts.com/svg/img_470621.png" />
+            </Row>
+            <Row className="mt-4 mb-4">
+              <Image src="http://cdn.onlinewebfonts.com/svg/img_470621.png" />
+            </Row>
+          </Col>
         </Row>
       </Row>
     </Container>

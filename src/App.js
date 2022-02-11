@@ -7,24 +7,22 @@ import Left from "./Left/Left";
 
 function App() {
   return (
-    <Container fluid>
-      <Col>
-        <Row>
-          <Col md={1}>
-            <Left />
-          </Col>
-          <Col md={11}>
-            <Row>
-              <Col md={7}>
-                <Main />
-              </Col>
-              <Col md={5}>
-                <Right />
-              </Col>
-            </Row>
-          </Col>
-        </Row>
-      </Col>
+    <Container fluid className="mx-0 px-0">
+      <Row className="mx-0 px-0">
+        <Col md={1} className="mx-0 px-0">
+          <Left />
+        </Col>
+        <Col md={11} className="mx-0 px-0">
+          <Row className="mx-0 px-0">
+            <Col md={8} className="mx-0 px-0">
+              <Main />
+            </Col>
+            <Col md={4} className="mx-0 px-0">
+              <Right />
+            </Col>
+          </Row>
+        </Col>
+      </Row>
     </Container>
   );
 }

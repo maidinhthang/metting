@@ -41,15 +41,18 @@ function Upcoming() {
     },
   ];
   return (
-    <Container fluid>
+    <Container fluid className="main px-0 mx-0">
+      <Row className="m-4">
+        <span className="mainheadercard px-0">Upcoming Meetings</span>
+      </Row>
       {upcomming.map((comming, index) => (
-        <Row className="meeting mb-4 mt-4">
-          <Col md={3}>
+        <Row className="meeting m-4 pt-4 pb-4 bordercomming ">
+          <Col md={3} className="">
             <Row>
-              <span>{comming.time}</span>
+              <span className="texttitle pb-4">{comming.time}</span>
             </Row>
             <Row>
-              <span>{comming.timecall}</span>
+              <span className="textsubtitle">{comming.timecall}</span>
             </Row>
           </Col>
 
@@ -58,15 +61,18 @@ function Upcoming() {
               <span>{comming.photo}</span>
             </Row>
             <Row>
-              <span>{comming.name}</span>
+              <span className="texttitle pb-4">{comming.name}</span>
+            </Row>
+            <Row>
+              <span className="textsubtitle">{comming.place}</span>
             </Row>
           </Col>
           <Col md={3}>
             <Row>
-              <span>{comming.day}</span>
+              <span className="texttitle pb-4">{comming.day}</span>
             </Row>
             <Row>
-              <span>{comming.status}</span>
+              <span className="textsubtitle">{comming.status}</span>
             </Row>
           </Col>
           <Col md={3}></Col>
