@@ -8,7 +8,7 @@ import Upcoming from "./Upcoming";
 function Main() {
   return (
     <Container fluid className="main px-0 mx-0">
-      <Col>
+      <Row>
         <Row>
           <Header />
         </Row>
@@ -18,7 +18,7 @@ function Main() {
         <Row>
           <Upcoming />
         </Row>
-      </Col>
+      </Row>
     </Container>
   );
 }
